@@ -18,37 +18,9 @@ body {
     color: white;
     font-family: sans-serif;
 }
-
-.img{
+.content-left img{
     max-width: 400px;
     height: auto;
-    justify-content: flex-start;
-}
-
-.content-right{
-    text-align: right;
-}
-
-.content-right h1{
-    font-size: 40px;
-    color: orange;
-    margin : 0;
-}
-
-.content-right h2{
-    font-size: 40px;
-    text-align: left;
-    margin: 0;
-}
-.content-left h1{
-    font-size: 20px;
-    letter-spacing: 5px;
-    text-align: left;
-    margin: 0;
-}
-.content-left h2{
-    font-size: 20px;
-    margin: 0;
 }
 
 nav {
@@ -76,15 +48,20 @@ nav ul li a {
 .container {
     display: flex;
     min-height: 400px;
-    width: 100%;
 }
-
+.kiri{
+    float: left;
+    width: 60%;
+}
+.kanan{
+    float: right;
+    width: 40%;
+}
 
 .biodata {
     flex: 1; 
     background-color: #e2c5cb;
     padding: 20px;
-    font-family: Times New Roman, Times, serif;
 }
 
 .pengalaman {

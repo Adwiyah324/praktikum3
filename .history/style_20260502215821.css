@@ -37,6 +37,7 @@ body {
 
 .content-right h2{
     font-size: 40px;
+    letter-spacing: 2px;
     text-align: left;
     margin: 0;
 }
@@ -48,6 +49,7 @@ body {
 }
 .content-left h2{
     font-size: 20px;
+    letter-spacing: 3px;
     margin: 0;
 }
 

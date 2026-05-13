@@ -22,7 +22,7 @@ body {
 .img{
     max-width: 400px;
     height: auto;
-    justify-content: flex-start;
+    align-items: center;
 }
 
 .content-right{
@@ -37,17 +37,17 @@ body {
 
 .content-right h2{
     font-size: 40px;
-    text-align: left;
+    letter-spacing: 2px;
     margin: 0;
 }
 .content-left h1{
     font-size: 20px;
-    letter-spacing: 5px;
-    text-align: left;
+    letter-spacing: 3px;
     margin: 0;
 }
 .content-left h2{
-    font-size: 20px;
+    font-size: 25px;
+    letter-spacing: 6px;
     margin: 0;
 }
 
@@ -84,7 +84,6 @@ nav ul li a {
     flex: 1; 
     background-color: #e2c5cb;
     padding: 20px;
-    font-family: Times New Roman, Times, serif;
 }
 
 .pengalaman {

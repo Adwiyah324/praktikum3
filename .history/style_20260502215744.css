@@ -37,17 +37,19 @@ body {
 
 .content-right h2{
     font-size: 40px;
+    letter-spacing: 2px;
     text-align: left;
     margin: 0;
 }
 .content-left h1{
     font-size: 20px;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     text-align: left;
     margin: 0;
 }
 .content-left h2{
-    font-size: 20px;
+    font-size: 25px;
+    letter-spacing: 2px;
     margin: 0;
 }
 

@@ -9,48 +9,17 @@ body {
     background-color: #f0f0f0;
 }
 
+/* Header & Banner */
 .banner {
-    background-color: #e2c5cb; 
+    background-color: #5bb0ca; /* Warna sesuai gambar */
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: sans-serif;
 }
 
-.img{
-    max-width: 400px;
-    height: auto;
-    justify-content: flex-start;
-}
-
-.content-right{
-    text-align: right;
-}
-
-.content-right h1{
-    font-size: 40px;
-    color: orange;
-    margin : 0;
-}
-
-.content-right h2{
-    font-size: 40px;
-    text-align: left;
-    margin: 0;
-}
-.content-left h1{
-    font-size: 20px;
-    letter-spacing: 5px;
-    text-align: left;
-    margin: 0;
-}
-.content-left h2{
-    font-size: 20px;
-    margin: 0;
-}
-
+/* Hint A: Navigation menggunakan Flexbox */
 nav {
     background-color: #a0a0a0;
     padding: 10px 50px;
@@ -58,7 +27,7 @@ nav {
 
 nav ul {
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end; /* Navigasi di kanan */
     list-style: none;
 }
 
@@ -73,26 +42,25 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Hint B: Layout dua kolom menggunakan Flexbox */
 .container {
     display: flex;
     min-height: 400px;
-    width: 100%;
 }
 
-
 .biodata {
-    flex: 1; 
-    background-color: #e2c5cb;
+    flex: 1; /* Mengambil 1 bagian */
+    background-color: #a8dadc;
     padding: 20px;
-    font-family: Times New Roman, Times, serif;
 }
 
 .pengalaman {
-    flex: 2; 
-    background-color: #edeec8;
+    flex: 2; /* Mengambil 2 bagian (lebih lebar) */
+    background-color: white;
     padding: 20px;
 }
 
+/* Pengaturan Konten */
 .profile-pic {
     width: 200px;
     height: auto;
@@ -112,6 +80,7 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 
+/* Footer */
 footer {
     background-color: #a0a0a0;
     text-align: center;
